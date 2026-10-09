@@ -8,8 +8,17 @@ be rough; clean them up during the weekly research run.
   Related paths:
   Output:
 
-## 2026-10-02
+## 2026-10-09
+- TODO Research question or topic.
+  Related paths:
+  Output:
 
+## 2026-10-02
+- DONE What are some ideal/standard setups for Codex/Claude in VS Code?
+  Related paths:
+  - results/2026-10-09/agents-vs-skills/
+  - results/2026-10-09/codex-claude-vscode/
+  Output: results/2026-10-09/codex-claude-vscode/summary.md
 - DONE research the difference between agents and skills and how they relate to each other
   Related paths:
   Output: results/2026-10-09/agents-vs-skills/

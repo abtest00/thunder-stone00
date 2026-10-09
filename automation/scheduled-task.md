@@ -3,7 +3,7 @@
 Suggested schedule:
 
 ```text
-Every Friday at 9:00 AM America/Detroit
+Every Friday at 12:00 PM America/Detroit
 ```
 
 Manual fallback:
