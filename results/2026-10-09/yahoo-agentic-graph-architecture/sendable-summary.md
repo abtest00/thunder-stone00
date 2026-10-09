@@ -1,0 +1,11 @@
+# Sendable Summary
+
+I read the Yahoo/Google Cloud article and translated it through the data-structures lens. My main takeaway is that the important pattern is not the agent interface itself, but the governed commercial data model underneath it.
+
+Yahoo appears to be using two graph-shaped data products. The first is a knowledge or operating graph that represents the commercial truth the agent needs before acting: products, placements, audiences, inventory, contracts, pricing, policy rules, consent requirements, brand-safety constraints, and approval thresholds. The second is a context or evidence graph that records what the agent did and why: the original brief, candidate packages considered, scores, policy checks, rejected alternatives, approvals, execution events, and outcomes.
+
+For RAPLAT, I think the translation is that agentic media buying increases the value of canonical, machine-readable commercial truth. The question is less whether we should build an autonomous buying agent and more whether our data structures are ready for agent-assisted workflows. That likely means stable IDs and relationships across products, audiences, inventory, forecasts, pricing, contracts, campaigns, measurement definitions, and outcomes; policy-as-data instead of rules buried in process or application logic; and durable decision traces that can explain recommendations after the fact.
+
+I also looked at AdCP, which seems relevant as a protocol layer for buyer and seller agents to exchange structured campaign/RFP context and coordinate planning, buying, governance, and measurement workflows. It is not primarily an impression-level ad-serving or auction protocol, though in AI-native sponsored experiences it can participate more directly in how sponsored content is surfaced, governed, and attributed.
+
+The attached brief expands on the market signal, the Yahoo architecture, and the practical RAPLAT implications. My short version: Yahoo is turning commercial operations into a graph of governed entities and relationships, then separately logging agent decisions as an evidence graph. The useful question for us is what data structures would let trusted agents or human workflows answer: what is available, what is eligible, what is allowed, why was this recommended, who approved it, and what happened afterward?
