@@ -16,9 +16,9 @@
 - Standards landscape:
   - IAB Tech Lab AAMP: industry standards effort building on existing IAB standards.
   - AdCP: independent protocol, agent workflow layer, open-source spec, not part of IAB Tech Lab.
-- Key RAP question: what data products would an internal or external media-buying agent need to trust?
+- Key RAPLAT question: what data products would an internal or external media-buying agent need to trust?
 
-## Candidate RAP Data Products
+## Candidate RAPLAT Data Products
 
 - Canonical ad product catalog.
 - Audience taxonomy with eligibility rules and freshness metadata.
