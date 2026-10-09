@@ -9,11 +9,12 @@ be rough; clean them up during the weekly research run.
   Output:
 
 ## 2026-10-09
-- TODO Research question or topic.
-  Related paths:
-  Output:
 
 ## 2026-10-02
+- DONE https://cloud.google.com/blog/products/databases/graph-technologies-underpin-yahoo-system-of-action 
+  Related paths:
+  - results/2026-10-09/agentic-media-buying/
+  Output: results/2026-10-09/yahoo-agentic-graph-architecture/
 - DONE What are some ideal/standard setups for Codex/Claude in VS Code?
   Related paths:
   - results/2026-10-09/agents-vs-skills/
