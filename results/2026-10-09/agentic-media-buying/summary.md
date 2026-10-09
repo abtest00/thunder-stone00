@@ -38,7 +38,7 @@ Publisher/seller layer:
 
 Agentic media buying increases the value of machine-readable commercial truth. The platform advantage will likely come from clean product catalogs, audience definitions, inventory availability, forecast confidence, pricing rules, measurement metadata, and guardrail-ready approval/audit trails.
 
-Likely RAP-adjacent opportunities:
+Likely RAPLAT-adjacent opportunities:
 
 1. Product and audience catalog quality: agents need structured, current, queryable definitions.
 2. Forecasting and availability APIs: buyer/seller agents will need fast answers about reach, inventory, pacing, and constraints.
@@ -52,5 +52,5 @@ Likely RAP-adjacent opportunities:
 - Hearst's public signal is especially relevant because it uses publisher first-party data and RFP planning, which is close to revenue analytics and sales enablement.
 - Standards are unsettled: IAB Tech Lab AAMP and AdCP are adjacent but separately governed. That creates near-term integration ambiguity.
 - Production claims exist, especially from PubMatic, but they should be read carefully as vendor-reported case evidence.
-- For RAP, the best strategic bet is probably not to build a fully autonomous buyer, but to make commercial data agent-ready: canonical, governed, explainable, and accessible through APIs or MCP-like interfaces.
+- For RAPLAT, the best strategic bet is probably not to build a fully autonomous buyer, but to make commercial data agent-ready: canonical, governed, explainable, and accessible through APIs or MCP-like interfaces.
 
