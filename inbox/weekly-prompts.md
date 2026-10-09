@@ -10,10 +10,10 @@ be rough; clean them up during the weekly research run.
 
 ## 2026-10-02
 
-- TODO research the difference between agents and skills and how they relate to each other
+- DONE research the difference between agents and skills and how they relate to each other
   Related paths:
-  Output:
-- TODO I want to know more about agentic media buying - my company is working towards the same thing that Hearst has already put out a press release for. 
+  Output: results/2026-10-09/agents-vs-skills/
+- DONE I want to know more about agentic media buying - my company is working towards the same thing that Hearst has already put out a press release for. 
   Related paths:
-  Output:
+  Output: results/2026-10-09/agentic-media-buying/
   
