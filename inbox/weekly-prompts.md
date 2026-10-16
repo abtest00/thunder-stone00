@@ -25,9 +25,11 @@ be rough; clean them up during the weekly research run.
   - ../abtest00/work/projects/infra-migration/iam-research.md
   - ../abtest00/work/projects/infra-migration/access-patterns/gcp.md
   Output: results/2026-10-16/cross-project-authorized-views/summary.md
-- DONE JEV — explain this to me and why it is becoming more popular. (Researched as the likely “Jevons paradox”; see open question.)
+- DONE JEV — explain Jev by TypeSafe and its appeal to AI builders; include the official agent skill. Corrected the earlier Jevons interpretation on 2026-10-16.
   Related paths:
-  Output: results/2026-10-16/jevons-paradox-ai/summary.md
+  - results/2026-10-16/jevons-paradox-ai/
+  - https://github.com/typesafe-ai/skills/blob/main/skills/typesafe-ai/SKILL.md
+  Output: results/2026-10-16/jev-ai/summary.md
 - DONE Setting up service accounts in GCP so that costs are easily traceable.
   Related paths:
   - ../abtest00/work/projects/sigma-governance/service-accounts.md

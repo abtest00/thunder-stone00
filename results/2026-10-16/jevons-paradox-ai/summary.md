@@ -1,3 +1,5 @@
+> Superseded for Andy’s JEV request: see [Jev by TypeSafe](../jev-ai/summary.md), including the official agent skill. The earlier Jevons interpretation was corrected on 2026-10-16.
+
 # JEV: likely the Jevons paradox in AI
 
 “JEV” appears ambiguous, but the most likely interpretation in the current AI conversation is the **Jevons paradox**: making a resource cheaper or more efficient can increase total demand for it. For AI, cheaper/faster intelligence can encourage more experiments, more features, and more inference—so total spend, compute, or knowledge-work volume may rise rather than fall.
