@@ -18,6 +18,30 @@ BigQuery’s documentation explicitly says a principal needs `roles/bigquery.dat
 4. Configure the client/tool to submit jobs to that execution project. Verify billing with `region-us.INFORMATION_SCHEMA.JOBS_BY_PROJECT`.
 5. Manage the view authorization as code; avoid mixing legacy dataset ACL changes with IAM in an unmanaged way.
 
+## How to connect a view in your project to another team's table
+
+The owner of the source dataset must authorize your view. Hosting the view in your project does not automatically give it access to their table.
+
+For example, your view is `your-project.shared_views.orders` and their table is `their-project.sales.orders`:
+
+1. **Create the view in your project**, referencing the source table:
+
+   ```sql
+   CREATE VIEW `your-project.shared_views.orders` AS
+   SELECT order_id, order_date, amount
+   FROM `their-project.sales.orders`;
+   ```
+
+   Whoever creates the view needs permission to create views in your dataset and read the referenced source table.
+
+2. **Ask the source dataset owner to authorize the view.** In BigQuery, they open `their-project.sales`, select **Sharing → Authorize views**, and add `your-project.shared_views.orders`. Authorization is configured on the source dataset. [Google's setup instructions](https://docs.cloud.google.com/bigquery/docs/create-authorized-views)
+
+3. **Grant query access to your user or service account:** `roles/bigquery.dataViewer` on your view dataset and `roles/bigquery.jobUser` on the project where the query job runs. Once the view is authorized, consumers do not need direct access to the source table. Both datasets must be in the same BigQuery location. [Authorized views documentation](https://docs.cloud.google.com/bigquery/docs/authorized-views)
+
+Request to send to the source team:
+
+> Please authorize the view `your-project.shared_views.orders` on your source dataset `their-project.sales` using Sharing → Authorize views. This lets our consumers query the approved view without granting them direct access to your underlying tables.
+
 ## Important constraints
 
 - Source and authorized-view datasets must be in the same region.
