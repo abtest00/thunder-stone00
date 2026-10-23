@@ -8,11 +8,40 @@ be rough; clean them up during the weekly research run.
   Related paths:
   Output:
 
-## 2026-10-19
+## 2026-10-26
 
 - TODO Research question or topic.
   Related paths:
   Output:
+
+## 2026-10-19
+
+- DONE Does Sigma pass parameters to BigQuery, such as a label, to trace the dashboard that originated a query?
+  Related paths:
+  - results/2026-10-16/service-account-cost-attribution/
+  Output: results/2026-10-23/sigma-bigquery-query-tracing/summary.md
+
+- DONE How can Airflow send alerts only after the third failed attempt?
+  Related paths:
+  - ../conductor/conductor/core/alerting.py
+  - ../conductor/conductor/core/defaults.py
+  Output: results/2026-10-23/airflow-alert-after-retries/summary.md
+
+- DONE How to connect to Sigma MCP.
+  Related paths:
+  - ../abtest00/work/projects/sigma-governance/account-types/read-only.md
+  Output: results/2026-10-23/sigma-mcp-connection/summary.md
+
+- DONE Working with Sigma and a semantic layer; plan a test.
+  Related paths:
+  - ../abtest00/work/projects/data-contracts/data-contracts-validation.md
+  - results/2026-10-16/dbt-summit-2026/
+  Output: results/2026-10-23/sigma-semantic-layer-pilot/summary.md
+
+- DONE How to get Codex to save more documents periodically/automatically like Claude.
+  Related paths:
+  - results/2026-10-16/codex-claude-context-library/
+  Output: results/2026-10-23/codex-memory-and-document-persistence/summary.md
 
 ## 2026-10-12
 
