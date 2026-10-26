@@ -1,6 +1,7 @@
 # thunder-stone00
 
-This repo stores recurring research prompts, notes, sources, and results.
+This repo stores recurring research prompts, notes, sources, results, and durable
+workflow-audit history.
 
 ## Research Capture
 
@@ -32,3 +33,12 @@ When performing a research run:
 
 Keep this system useful and low-friction. The inbox is for rough capture; the
 result folders are where polish belongs.
+
+## Codex Workflow Audits
+
+- Use the `codex-workflow-audit` skill from `moon-stone00` as the source of truth
+  for audit method, report shape, and scheduled-task instructions.
+- Save reports under `audits/codex-workflow/YYYY-MM-DD/scope-slug/report.md`.
+- Update `audits/codex-workflow/index.md` after each run.
+- Do not apply the research inbox or four-file result contract to workflow audits.
+- Preserve prior reports and recorded decisions; never overwrite a distinct run.

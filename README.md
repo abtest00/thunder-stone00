@@ -1,7 +1,11 @@
 # thunder-stone00
 
-This repo is the home for recurring research capture, notes, sources, and
-weekly research results.
+This repo is the home for recurring research capture, notes, sources, weekly
+research results, and durable workflow-audit history.
+
+Codex workflow audit reports live under `audits/codex-workflow/`. The reusable
+audit method and scheduled-task prompt live in the sibling `moon-stone00` skill
+`skills/codex-workflow-audit/`; do not duplicate that method here.
 
 ## Workflow
 
@@ -95,3 +99,15 @@ running, use the manual fallback:
 ```text
 Run the weekly thunder research workflow now.
 ```
+
+## Workflow Audits
+
+Codex workflow audits use a separate convention from research results:
+
+```text
+audits/codex-workflow/YYYY-MM-DD/scope-slug/report.md
+```
+
+Update `audits/codex-workflow/index.md` after each run. Audit reports do not need
+the four-file research result shape unless a specific audit produces substantial
+supporting artifacts.
