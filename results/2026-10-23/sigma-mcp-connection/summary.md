@@ -11,7 +11,7 @@ Sigma MCP lets Codex/other assistants search Sigma documents and data sources, q
 ## Connect it to Codex
 
 ```bash
-codex mcp add sigma --url '<your Sigma MCP URL>'
+codex mcp add sigma --url 'https://api.sigmacomputing.com/mcp/v2'
 ```
 
 Complete the OAuth authorization prompt, then verify the configured server with `codex mcp list`. Sigma’s docs specify HTTP transport and OAuth authentication; use the exact organization URL, not a guessed shared endpoint. [Sigma setup details](https://help.sigmacomputing.com/docs/use-sigma-mcp-server)
