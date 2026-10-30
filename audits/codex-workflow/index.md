@@ -2,6 +2,7 @@
 
 | Run date | Evidence window | Scope | Headline findings | Report |
 |---|---|---|---|---|
+| 2026-10-30 | 2026-10-16 through 2026-10-30 | Bulbasaur workspace; 22 user-directed tasks | DAG verification guidance is materially stronger; standalone readiness checks and generated-artifact ownership remain open prior proposals | [Report](2026-10-30/last-14-days/report.md) |
 | 2026-10-23 | 2026-10-09 through 2026-10-23 | Bulbasaur workspace; 85 user-started tasks | Preserve shared-system previews, formalize standalone source-readiness checks, and map cross-repo integration ownership | [Report](2026-10-23/last-14-days/report.md) |
 | 2026-10-09 | 2026-10-01 through 2026-10-09 | Bulbasaur workspace and `abtest00` vault | Harden dbt bootstrap, extend source-freshness triage, and consider a weekly TODO audit | [Report](2026-10-09/october-to-date/report.md) |
 | 2026-10-09 | 2026-09-01 through 2026-09-30 | Bulbasaur workspace and `abtest00` vault | Formalize Curator-to-Airflow migrations, add data-workflow verification, and consider a read-only health review | [Report](2026-10-09/september/report.md) |

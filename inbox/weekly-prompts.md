@@ -8,11 +8,42 @@ be rough; clean them up during the weekly research run.
   Related paths:
   Output:
 
-## 2026-10-26
+## 2026-11-02
 
 - TODO Research question or topic.
   Related paths:
   Output:
+
+## 2026-10-26
+
+- DONE How to create the DBZ Instant Transmission zoom effect.
+  Related paths:
+  - ../abtest00/work/notes/aardvark/2026/79738973 20261026 WEEKLY TODO.md
+  Output: results/2026-10-30/dbz-instant-transmission-zoom/summary.md
+
+
+- DONE How to create an agent in GCP using my OKF bundle, and explain the components.
+  Related paths:
+  - ../abtest00/work/projects/new-infra/knowledge-catalog-and-sigma-agent-plan.md
+  - ../abtest00/work/projects/okf/intial-discovery.md
+  - ../context-pi-ads-and-finance/README.md
+  Output: results/2026-10-30/okf-gcp-agent/summary.md
+
+- DONE Extensive research on AdCP and how a knowledge/context graph supports a successful agent.
+  Related paths:
+  - results/2026-10-16/knowledge-graph-product-playbook/
+  - ../abtest00/work/projects/okf/intial-discovery.md
+  Output: results/2026-10-30/adcp-knowledge-graph-agent/summary.md
+
+- DONE Sigma Computing structure: data models, workbooks, and related concepts.
+  Related paths:
+  - results/2026-10-23/sigma-semantic-layer-pilot/
+  Output: results/2026-10-30/sigma-concepts/summary.md
+
+- DONE How to save Codex/Claude conversations outside the tools.
+  Related paths:
+  - results/2026-10-23/codex-memory-and-document-persistence/
+  Output: results/2026-10-30/conversation-archive-workflow/summary.md
 
 ## 2026-10-19
 
