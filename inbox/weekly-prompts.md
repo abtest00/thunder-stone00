@@ -8,11 +8,20 @@ be rough; clean them up during the weekly research run.
   Related paths:
   Output:
 
-## 2026-11-02
+## 2026-11-09
 
 - TODO Research question or topic.
   Related paths:
   Output:
+
+## 2026-11-02
+
+- DONE How can I measure the effectiveness of the context I am feeding models, and the effectiveness of skills?
+  Related paths:
+  - results/2026-10-09/agents-vs-skills/
+  - results/2026-10-16/codex-claude-context-library/
+  - results/2026-10-30/adcp-knowledge-graph-agent/
+  Output: results/2026-11-06/context-and-skill-evaluation/summary.md
 
 ## 2026-10-26
 
