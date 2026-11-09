@@ -2,6 +2,7 @@
 
 | Run date | Evidence window | Scope | Headline findings | Report |
 |---|---|---|---|---|
+| 2026-11-06 | 2026-10-23 through 2026-11-06 | Bulbasaur workspace; 81 user-started tasks, deep dive | Strong evidence-driven operations and durable repo guidance; adopt continuity briefs and approve standalone readiness mode | [Report](2026-11-06/last-14-days-deep-dive/report.md) |
 | 2026-11-06 | 2026-10-23 through 2026-11-06 | Bulbasaur workspace; recent user-task sample | PR and CI guidance is becoming repository-native; standalone readiness checks remain the one open proposal | [Report](2026-11-06/last-14-days/report.md) |
 | 2026-10-30 | 2026-10-16 through 2026-10-30 | Bulbasaur workspace; 22 user-directed tasks | DAG verification guidance is materially stronger; standalone readiness checks and generated-artifact ownership remain open prior proposals | [Report](2026-10-30/last-14-days/report.md) |
 | 2026-10-23 | 2026-10-09 through 2026-10-23 | Bulbasaur workspace; 85 user-started tasks | Preserve shared-system previews, formalize standalone source-readiness checks, and map cross-repo integration ownership | [Report](2026-10-23/last-14-days/report.md) |
